@@ -39,7 +39,8 @@ Daily Aggregation
 BigQuery Gold Layer (daily_sentiment_fact)
 ```
 
-##Tech Stack
+ 
+## Tech Stack
 - Python
 - Google Cloud (Pub/Sub, BigQuery, Cloud Functions)
 - NLP (TextBlob, VADER)
