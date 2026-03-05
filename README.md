@@ -39,6 +39,14 @@ Daily Aggregation
 BigQuery Gold Layer (daily_sentiment_fact)
 ```
 
+##Tech Stack
+- Python
+- Google Cloud (Pub/Sub, BigQuery, Cloud Functions)
+- NLP (TextBlob, VADER)
+- Data Warehouse: BigQuery
+- BI Tool: Power BI
+
+  
 ## Prerequisites
 
 - **Python 3.8+**
