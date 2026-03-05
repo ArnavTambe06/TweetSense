@@ -1,0 +1,31 @@
+twitter-sentiment-pipeline/
+├── config/
+│   ├── gcp-key.json                 # Service account key
+│   ├── twitter_config.py            # Twitter API keys
+│   └── gcp_config.py                # GCP project settings
+├── src/
+│   ├── ingestion/
+│   │   ├── twitter_collector.py     # Twitter API calls
+│   │   └── pubsub_publisher.py      # Pub/Sub publishing
+│   ├── processing/
+│   │   ├── sentiment_analyzer.py    # NLP processing
+│   │   └── data_cleaner.py          # Data cleaning
+│   ├── storage/
+│   │   ├── bigquery_client.py       # BigQuery operations
+│   │   └── schema_definitions.py    # Table schemas
+│   └── utils/
+│       ├── logger.py                # Logging setup
+│       └── error_handler.py         # Error handling
+├── scripts/
+│   ├── setup_infrastructure.py      # GCP resource creation
+│   ├── deploy_pipeline.py           # Deployment scripts
+│   └── test_pipeline.py             # Testing scripts
+├── sql/
+│   ├── bronze_to_silver.sql         # Transformation queries
+│   ├── silver_to_gold.sql           # Aggregation queries
+│   └── powerbi_views.sql            # Views for Power BI
+├── docs/
+│   ├── architecture.md
+│   └── setup_guide.md
+├── requirements.txt
+└── README.md
