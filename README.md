@@ -631,14 +631,6 @@ Contributions are welcome! Please ensure:
 - All tests pass before submitting pull requests
 - Sensitive credentials are never committed
 
-## License
-
-[Specify your license here - e.g., MIT, Apache 2.0]
-
-## Contact
-
-For questions or support, please reach out to [your contact information].
-
 ## Acknowledgments
 
 - [Twitter API Documentation](https://developer.twitter.com/en/docs)
